@@ -1,0 +1,27 @@
+{
+  "root": true,
+  "project": {
+    "name": "food-deliver-mobile-app"
+  },
+  "api": {
+    "projectId": "o502yph0",
+    "dataset": "production"
+  },
+  "paths": {
+    "source": "./src",
+    "compiled": "./lib"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool"
+  ],
+  
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema"
+    }
+  ]
+}
